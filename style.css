@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+section {
+  padding: 50px 0;
+}
 
 li {
   list-style: none;
@@ -85,9 +88,6 @@ h3 {
   width: 500px;
 }
 
-#about {
-  padding: 50px 0;
-}
 .about-container h2 {
   text-align: center;
 }
@@ -106,4 +106,33 @@ h3 {
 }
 .about-details p {
   margin-bottom: 20px;
+}
+
+#services {
+  color: white;
+  background-image: url(./images/background.png),
+    linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+}
+#services h2 {
+  text-align: center;
+}
+.services-items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.item {
+  background: #0000002c;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 4px 0px 84px 0px white;
+  width: 250px;
+  border-radius: 20px;
+}
+.item p {
+  margin: 15px 0;
+  font-size: 15px;
+}
+.item img {
+  width: 50px;
 }
