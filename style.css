@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+#header {
+  background: #292929;
+  color: white;
+}
+.header-logo {
+  width: 140px;
+}
+
+.nav-menu {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu li {
+  margin-right: 30px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.menu li:last-child {
+  margin-right: 0;
+}
